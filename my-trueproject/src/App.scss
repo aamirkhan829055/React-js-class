@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  display: inline-block !important;
+  text-decoration: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+header {
+  background-color: #fff;
+  & .list-item-1 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+// home section
+
+.first-section-home {
+  background-image: url("./images/bg-first.png");
+  padding: 150px 0px;
+  background-size: cover;
+
+  background-position: bottom;
+
+  & .first-col-section {
+    background-color: #fff3e3;
+    padding: 40px 45px;
+    border-radius: 10px;
+  }
+
+  & .first-col-section span {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #333333;
+  }
+  & .first-col-section h1 {
+    font-size: 52px;
+    color: #b88e2f;
+  }
+
+  & .first-col-section p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+  }
+
+  & .first-col-section button {
+    // font-weight: 500;
+    font-size: 16px;
+    width: 222px;
+    height: 74px;
+    background-color: #b88e2f;
+  }
+}
+
+// .true-section-home
+
+.true-section-home {
+  padding: 100px 0px;
+
+  & .browser-rang h2 {
+    font-size: 32px;
+    color: #333333;
+  }
+
+  .browser-rang p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+  }
+
+  .brower-img img {
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .brower-img span {
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+// .three-section-home
+
+.three-section-home {
+  padding: 50px 0px;
+
+  & .products-our {
+    color: #3a3a3a;
+    font-size: 40px;
+  }
+
+  .products-section {
+    background-color: #f4f5f7;
+    position: relative;
+  }
+
+  .products-section .syltherine a {
+    font-weight: 600;
+    font-size: 24px;
+    color: #3a3a3a;
+  }
+
+  .products-section .syltherine span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #898989;
+    // letter-spacing: 1px;
+  }
+
+  .products-section .retting h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #3a3a3a;
+  }
+
+  .products-section .retting p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+  }
+
+  .products-section .of-retting span {
+    width: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e97171;
+  }
+
+  .after-bg-color {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background-color: rgba(58, 58, 58, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .after-bg-color:hover {
+    opacity: 1;
+  }
+  .after-bg-color a {
+    font-weight: 600;
+    font-size: 16px;
+    width: 202px;
+    padding: 13px 0px;
+    color: #b88e2f;
+    text-align: center;
+  }
+
+  .interner-app p {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 8px;
+  }
+  .interner-app p i {
+    width: 16px;
+    height: 16px;
+  }
+  .bg-color-green {
+    background-color: #2ec1ac !important;
+  }
+  .button-one {
+    font-weight: 600;
+    color: #b88e2f !important;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #b88e2f;
+    font-size: 16px;
+    width: 245px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 567px) {
+  section h1 {
+    font-size: 40px;
+  }
+}
